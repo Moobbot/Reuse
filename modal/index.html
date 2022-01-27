@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập, đăng ký</title>
+    <link rel="stylesheet" href="../assets/bootstrap-5.1.1/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+
+<body>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-login">
+        Đăng nhập
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="modal-login" tabindex="-1" aria-labelledby="modal-login" aria-hidden="true">
+        <div class="modal-dialog moddal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-loginLabel">Đăng nhập</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Login Form -->
+                    <form action="modal-js.js" method="GET">
+                        <label class="visually-hidden" for="username">Username</label>
+                        <input type="text" class="form-control" id="username" placeholder="Username" required autofocus>
+                        <label class="visually-hidden" for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password" required>
+                        <div class="checkbox mt-2 text-start" style="font-size: 16.5px;">
+                            <label>
+                                    <input type="checkbox" value="rember-me"> Remember me
+                                </label>
+                        </div>
+                        <div class="modal-footer d-flex justify-content-center border-0">
+                            <button type="submit" name="btn-dangnhap" class="btn btn-lg btn-primary">Đăng nhập</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../assets/bootstrap-5.1.1/bootstrap.min.js"></script>
+<script src="../assets/js/popper.min.js"></script>
+
+</html>
