@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbarr Bootstrap5</title>
+    <link rel="stylesheet" href="../assets/bootstrap-5.1.1/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+<style>
+    .hidden {
+        display: none;
+    }
+</style>
+
+<body style="height: 2000px;">
+    <!--
+        * aria-controls thuộc tính xác định phần tử (hoặc các phần tử) có nội dung hoặc sự hiện diện được kiểm soát bởi phần tử mà thuộc tính này được đặt trên đó.
+        * aria-expanded đặt trên một phần tử để cho biết một điều khiển được mở rộng hay thu gọn và liệu các phần tử con của nó có được hiển thị hay bị ẩn đi hay không.
+        * aria-label giúp giải thích nội dung hoặc hành động trên các trình đọc (screen readers) hỗ trợ người khuyết tật.
+-->
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand mb-0 h1">
+                <img class="d-inline-block align-center" src="../assets/img/Logo.jpg" alt="Logo" width="103" height="50">
+                <span class="hidden">Navbar</span>
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav text-end mx-auto">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link active">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Features
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a href="#" class="dropdown-item">Feature #1</a></li>
+                            <li><a href="#" class="dropdown-item">Feature #2</a></li>
+                            <li><a href="#" class="dropdown-item">Feature #3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            Pricing
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <form class="d-flex">
+                <input type="text" class="form-control me-2">
+                <button type="submit" class="btn btn-outline-primary">Search</button>
+            </form>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="../assets/bootstrap-5.1.1/bootstrap.min.js"></script>
+<script src="../assets/js/popper.min.js"></script>
+
+</html>
