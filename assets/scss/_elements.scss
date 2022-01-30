@@ -1,0 +1,16 @@
+// *Elements là các phần hoặc functionality(chức năng) khác nhau của blocks, như success hoặc alert.
+@mixin transform($transform) {
+    -webkit-transform: $transform;
+    -moz-transform: $transform;
+    -ms-transform: $transform;
+    -o-transform: $transform;
+    transform: $transform;
+}
+
+@mixin animation($args) {
+    -webkit-animation: $args;
+    -moz-animation: $args;
+    -ms-animation: $args;
+    -o-animation: $args;
+    animation: $args;
+}

@@ -1,0 +1,28 @@
+*,
+html,
+body,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    // font-family: $font_2;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+//* Content
+.content {
+    background-color: aqua;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+//* preloader - Cài đặt load trang */

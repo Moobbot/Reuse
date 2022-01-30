@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+/* Theme Description -- Mô tả chủ đề
+-------------------------------------------------
+
+	Theme Name: CSS for Zala
+	Author: Ngô Đức Tâm
+	Support: 
+	Description: Colorlib's css reference
+	Version: 1.0
+	
+------------------------------------------------- 
+*/
+
+
+/* CSS Index
+-------------------------------------------------
+
+
+-------------------------------------------------
+*/
+
+*,
+html,
+body,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.content {
+    background-color: aqua;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+input[type='email'],
+input[type='password'] {
+    /* border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top: 0px; */
+    margin-top: 0.5em;
+}
+
+.preloader {
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999999;
+    display: block;
+    overflow: hidden;
+}
+
+.preloader .preloader-img {
+    width: 10em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+/*# sourceMappingURL=styles.css.map */
